@@ -1,0 +1,55 @@
+<div class="courseItem">
+    <div class="row">
+        <div class="col-md-4">
+            <img ng-src="{{course.image}}" class="courseImage">
+        </div>
+        <div class="col-md-8">
+            <div class="container-fluid">
+                <div class="cold-md-12 courseTitle text-center">
+                    {{course.name}}
+                </div>
+                <div class="cold-md-12 courseTag">
+                    <span class="glyphicon glyphicon-tags col-black col-md-2"> </span>
+                    <div class="col-md-10">
+                        {{course.tags}}
+                    </div>
+                </div>                
+            </div>
+            <div class="col-md-12 container courseSummaryList">
+                <div class="col-md-3 courseSummary">
+                    <div>
+                        <span class="glyphicon  glyphicon-triangle-top"></span>
+                        0
+                    </div>
+                    <div>
+                        <span class="glyphicon  glyphicon-triangle-bottom"></span>
+                        0
+                    </div>
+                </div>
+                <div class="col-md-7 col-md-offset-1 courseSummary">
+                    <div>
+                        <span class="glyphicon glyphicon-user"></span>
+                        {{course.learner}} Learners
+                    </div>
+                    <div>
+                        <span class="glyphicon glyphicon-time"></span>
+                        {{course.hours}} Hours
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row details">
+        <div class="col-md-12 text-center bottom-align-text">
+            <div class="courseDesc">
+                {{course.description}}
+            </div>
+            <div class="btn btn-primary signUpCourse ">
+                <a ng-href="{{course.sign_up}}" target="_blank">
+                    <span class="glyphicon glyphicon-link"></span>
+                    View Curriculum
+                </a>
+            </div>        
+        </div>
+    <div>
+</div>

@@ -1,0 +1,137 @@
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;    
+    top: -0.5rem;
+}
+body{
+    background: url("/Assets/Media/seamless_paper_texture/seamless_paper_texture.png");
+}
+.disp-inline{
+    display: inline-block;
+}
+
+.logo{
+    height: 7rem;
+}
+header a:hover, header a:focus{
+    text-decoration: none;
+}
+.brand{
+    font-family: Artifika, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(0, 140, 30);
+    font-weight: bold;
+    font-size: 3rem;
+    position: relative;
+    top: 1.0rem;
+}
+.tag{
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(75, 75, 75);
+    font-size: 2rem;
+    position: relative;
+    top: 1.0rem;
+}
+.font-md{
+    font-size: 2rem;
+}
+.courseList{
+    margin-top: 1%;
+}
+.courseTitle{
+    font-size: x-large;
+    color: white;
+    background-color: rgba(120, 120, 75, 0.5);
+    border-radius: 10px;
+}
+.courseDetail{
+    min-height: 250px;
+    border-radius: 10px;
+    padding: 1%;
+    margin: auto auto 3% 3%;
+    box-sizing: border-box;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(216, 254, 238)), to(white));
+    background-image: -webkit-linear-gradient(top, rgb(216, 254, 238), white);
+    background-image: -moz-linear-gradient(top, rgb(216, 254, 238), white);
+    background-image: linear-gradient(to bottom, rgb(216, 254, 238), white);
+}
+.courseImage{
+    margin-top: 20px;
+    width: 100%;
+}
+.courseTag{
+    color: rgb(150, 150, 150);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.courseSummaryList{
+    padding-top: 20px;
+}
+.courseSummary{
+    background: rgb(200, 200, 200);
+    color: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+.courseItem .details{
+    visibility: hidden;
+    display: none;
+}
+.courseDesc{
+    padding: 1%;
+    background: rgb(150, 100, 100);
+    border: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+.highlightCourse .courseItem .details{
+    visibility: visible;
+    display: inline;
+}
+.signUpCourse{
+    margin-top: 10px;
+}
+.signUpCourse a, .signUpCourse a:hover, .signUpCourse a:active{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;    
+}
+.highlightCourse{
+    min-height: 500px;
+    font-size: x-large;
+    border: 2px solid black;
+}
+.col-black{
+    color: black;
+    font-size: x-large;
+    /*margin-right: 5px;*/
+}
+.sortSec{
+    background: rgb(150, 150, 150);
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.sortOptions, .sortTitle{
+    color: rgb(100, 100, 100);    
+    background: rgb(200, 200, 200);
+    border-radius: 4px;
+}
+.sortTitle{
+    margin-left: 0px;
+    margin-right: 0px;    
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.filter{
+    background: rgb(50, 50, 50);
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.filter input{
+    outline: none;
+    border: 2px solid white
+}

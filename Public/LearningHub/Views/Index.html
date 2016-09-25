@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <!--Styles-->
+  <link rel="stylesheet" href="/Assets/bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Artifika" />
+  <link rel="stylesheet" href="/Assets/LearningHub/Styles/main.css">
+  <link rel="stylesheet" href="/Assets/LearningHub/Styles/responsive.css">
+
+  <!--JS Files-->
+  <!--JQuery-->
+  <script src="/Assets/bower_components/jquery/dist/jquery.js"></script>
+  <!--Angular-->
+  <script src="/Assets/bower_components/angular/angular.js"></script>
+  <!--Angular Modules count = 1-->
+  <script src="/Assets/bower_components/angular-route/angular-route.js"></script>
+  <script src="/Assets/bower_components/angular-resource/angular-resource.js"></script>
+  <!--Services count = 1-->
+  <script src="/Assets/LearningHub/Scripts/Service/coursesDataProv.js"></script>
+  <!--Controllers count = 2-->
+  <script src="/Assets/LearningHub/Scripts/Controller/courses.js"></script>
+  <script src="/Assets/LearningHub/Scripts/Controller/header.js"></script>
+  <!--Directives count = 4-->
+  <script src="/Assets/LearningHub/Scripts/Directive/courseDetail.js"></script>
+  <script src="/Assets/LearningHub/Scripts/Directive/courseList.js"></script>
+  <script src="/Assets/LearningHub/Scripts/Directive/courseSort.js"></script>
+  <script src="/Assets/LearningHub/Scripts/Directive/header.js"></script>
+  <!--Route count = 1-->
+  <script src="/Assets/LearningHub/Scripts/Route/learningHubRoute.js"></script>
+  <!--LearningHub Module-->
+  <script src="/Assets/LearningHub/Scripts/app.js"></script>
+</head>
+<body ng-app="learningHub">
+  <header-dir></header-dir>
+  <div ng-view></div>
+
+</body>
+</html>

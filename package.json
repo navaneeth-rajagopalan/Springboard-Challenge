@@ -1,0 +1,23 @@
+{
+  "name": "spring_board_hiring",
+  "version": "1.0.0",
+  "description": "font end hiring event",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "angular.js",
+    "html5",
+    "css3",
+    "bootstrap"
+  ],
+  "author": "Navaneeth",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  }
+}

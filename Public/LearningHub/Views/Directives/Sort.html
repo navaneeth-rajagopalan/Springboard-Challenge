@@ -1,0 +1,14 @@
+<div class="container-fluid sort visible-lg">
+    <div class="col-md-12 sortTitle">
+        <span class="glyphicon glyphicon-sort"></span>
+        <span class="font-md">Sort by</span>
+    </div>
+    <div class="col-md-12 sortOptions">
+        <div ng-repeat="sortValue in sortBy.values">
+            <label><input type="radio" ng-model="sortBy.name" ng-value="sortValue.id" ng-change='newValue(sortBy.name)'> {{sortValue.text}}</label>
+        </div>
+    </div>
+    <div>
+
+    </div>
+</div>

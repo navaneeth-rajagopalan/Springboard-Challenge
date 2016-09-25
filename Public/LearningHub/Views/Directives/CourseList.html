@@ -1,0 +1,11 @@
+<div>
+    <div class="col-md-11 filter">
+        <div>
+            <input type="search" placeholder="Search (by Tag)" class="col-md-8" ng-model="filterTag">
+            {{filterTag}}
+        </div>
+    </div>
+    <div ng-repeat="course in courseList | filter: {tags: filterTag.toString()} | orderBy: 'learner'" class="col-md-5 courseDetail">
+        <course-detail-dir></course-detail-dir>
+    </div>
+</div>
